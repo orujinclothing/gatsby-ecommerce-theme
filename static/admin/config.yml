@@ -1,29 +1,16 @@
 backend:
   name: git-gateway
-  branch: main   # or "master" if your repo uses that
+  branch: main
 
-media_folder: static/images/uploads   # Where uploaded images go in repo
-public_folder: /images/uploads        # Path used in the site
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "pages"
     label: "Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Hero Text", name: "heroText", widget: "text" }
-          - { label: "Hero Image", name: "heroImage", widget: "image" }
-
-  - name: "products"
-    label: "Products"
-    folder: "content/products"
+    folder: "src/pages"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Product Name", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Price", name: "price", widget: "number" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
