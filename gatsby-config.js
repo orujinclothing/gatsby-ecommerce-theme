@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
+    title: `Orujin Clothing`,
     siteUrl: `https://jamm.matter.design`,
   },
   plugins: [],
