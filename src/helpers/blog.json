@@ -1,66 +1,50 @@
 [
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long establishable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long estab the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "Loproducers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral tish flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long et a reader by the readable t is a long et a reader by the rea",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-bs and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    }
-  ]
+  {
+    "title": "Streetwear Reimagined: The Orujin Way",
+    "category": "fashion",
+    "alt": "oru jin streetwear launch",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/streetwear-reimagined",
+    "excerpt": "Orujin Clothing introduces a bold take on streetwear — clean lines, athletic influence, and everyday comfort. Discover how our tees and hoodies bring minimalism and statement together."
+  },
+  {
+    "title": "The Hoodie That Defines Everyday Style",
+    "category": "hoodies",
+    "alt": "oru jin hoodie design",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/hoodie-everyday-style",
+    "excerpt": "Not just another hoodie. Orujin’s hoodies blend premium comfort with sharp design — perfect for the streets, the gym, or a casual hangout."
+  },
+  {
+    "title": "From Gym to Street: Activewear That Moves With You",
+    "category": "activewear",
+    "alt": "oru jin athletic wear",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/activewear-gym-to-street",
+    "excerpt": "Our athletic wear is designed to perform under pressure and still look good. Explore tees and joggers that transition seamlessly from workout to streetwear."
+  },
+  {
+    "title": "The Future of Minimal Streetwear",
+    "category": "design",
+    "alt": "oru jin minimal streetwear",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/minimal-streetwear",
+    "excerpt": "Orujin focuses on timeless designs over fast fashion. Learn why minimalism and sustainability shape the future of what you wear."
+  },
+  {
+    "title": "Denim Meets Street: Orujin Jeans",
+    "category": "jeans",
+    "alt": "oru jin jeans streetwear",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/orujin-jeans",
+    "excerpt": "Our jeans and pants are built for versatility — pair them with oversized tees or hoodies for the perfect street look."
+  },
+  {
+    "title": "Accessories That Speak",
+    "category": "accessories",
+    "alt": "oru jin streetwear accessories",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/orujin-accessories",
+    "excerpt": "From caps to minimal add-ons, Orujin accessories complete the outfit. Small details, big impact."
+  }
+]
