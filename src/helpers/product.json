@@ -45,4 +45,18 @@
     "vendor": "Orujin",
     "price": 49.90,
     "alt": "dark blue jeans",
-    "i
+    "image": "/products/dark_blue_jeans.jpg",
+    "colorOptions": [
+      {"color": "#00008B", "title": "Dark Blue"},
+      {"color": "#000000", "title": "Black"}
+    ],
+    "sizeOptions": ["S", "M", "L", "XL"],
+    "wishlist": true,
+    "tags": ["jeans", "men", "women"],
+    "gallery": [
+      {"image": "/products/dark_blue_jeans.jpg", "alt": "dark blue jeans front"},
+      {"image": "/products/dark_blue_jeans_back.jpg", "alt": "dark blue jeans back"}
+    ],
+    "description": "Classic dark blue denim jeans. Slim fit, versatile for any outfit."
+  }
+]
