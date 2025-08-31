@@ -1,0 +1,62 @@
+[
+  {
+    "productCode": "OJTS001-BLK",
+    "name": "Classic Black T-Shirt",
+    "vendor": "Orujin",
+    "price": 15.90,
+    "alt": "classic black t-shirt",
+    "image": "/products/black_tshirt.jpg",
+    "colorOptions": [
+      {"color": "#000000", "title": "Black"},
+      {"color": "#FFFFFF", "title": "White"}
+    ],
+    "sizeOptions": ["S", "M", "L", "XL"],
+    "wishlist": true,
+    "tags": ["tshirt", "men", "women"],
+    "gallery": [
+      {"image": "/products/black_tshirt.jpg", "alt": "black t-shirt front"},
+      {"image": "/products/black_tshirt_back.jpg", "alt": "black t-shirt back"}
+    ],
+    "description": "Premium cotton classic T-shirt. Comfortable fit, perfect for everyday wear."
+  },
+  {
+    "productCode": "OJHD001-GRY",
+    "name": "Grey Hoodie",
+    "vendor": "Orujin",
+    "price": 35.90,
+    "alt": "grey hoodie",
+    "image": "/products/grey_hoodie.jpg",
+    "colorOptions": [
+      {"color": "#808080", "title": "Grey"},
+      {"color": "#000000", "title": "Black"}
+    ],
+    "sizeOptions": ["S", "M", "L", "XL"],
+    "wishlist": true,
+    "tags": ["hoodie", "men", "women"],
+    "gallery": [
+      {"image": "/products/grey_hoodie.jpg", "alt": "grey hoodie front"},
+      {"image": "/products/grey_hoodie_back.jpg", "alt": "grey hoodie back"}
+    ],
+    "description": "Soft, cozy hoodie with minimal branding. Streetwear essential."
+  },
+  {
+    "productCode": "OJJP001-DN",
+    "name": "Dark Blue Jeans",
+    "vendor": "Orujin",
+    "price": 49.90,
+    "alt": "dark blue jeans",
+    "image": "/products/dark_blue_jeans.jpg",
+    "colorOptions": [
+      {"color": "#00008B", "title": "Dark Blue"},
+      {"color": "#000000", "title": "Black"}
+    ],
+    "sizeOptions": ["S", "M", "L", "XL"],
+    "wishlist": true,
+    "tags": ["jeans", "men", "women"],
+    "gallery": [
+      {"image": "/products/dark_blue_jeans.jpg", "alt": "dark blue jeans front"},
+      {"image": "/products/dark_blue_jeans_back.jpg", "alt": "dark blue jeans back"}
+    ],
+    "description": "Classic dark blue denim jeans. Slim fit, versatile for any outfit."
+  }
+]
