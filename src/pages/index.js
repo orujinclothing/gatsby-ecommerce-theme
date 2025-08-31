@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link, navigate } from 'gatsby';
 
 import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
@@ -11,49 +12,44 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
 
-import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
-
-import * as styles from './index.module.css';
-import { Link, navigate } from 'gatsby';
 import { toOptimizedImage } from '../helpers/general';
 
-const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
-  const blogData = generateMockBlogData(3);
+import * as styles from './index.module.css';
 
+import products from '../data/products.json';
+import blogs from '../data/blogs.json';
+
+const IndexPage = () => {
   const goToShop = () => {
     navigate('/shop');
   };
 
   return (
     <Layout disablePaddingBottom>
-      {/* Hero Container */}
+      {/* Hero Section */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
+        image={'/banner1.png'} // replace with your own banner
+        title={'Streetwear Essentials'}
+        subtitle={'Orujin Clothing — T-Shirts, Hoodies & More'}
+        ctaText={'Shop Now'}
         ctaAction={goToShop}
       />
 
-      {/* Message Container */}
+      {/* Message / About */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          Streetwear designed for everyday life by{' '}
+          <span className={styles.gold}>Orujin Clothing</span>.
         </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+        <p>Shop our T-shirts, hoodies, jeans, and accessories.</p>
       </div>
 
-      {/* Collection Container */}
+      {/* Collection Section */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
-          <ProductCollectionGrid />
+          <ProductCollectionGrid data={products} />
         </Container>
       </div>
 
@@ -66,57 +62,60 @@ const IndexPage = () => {
             showSlider
             height={480}
             columns={3}
-            data={newArrivals}
+            data={products}
           />
         </Container>
       </div>
 
-      {/* Highlight  */}
+      {/* Highlight Section */}
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/highlight.png'} // replace with your highlight image
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/highlightmin.png'} // optional
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            title={'Orujin Hoodies'}
+            description={`Our premium hoodies are soft, cozy, and built for streetwear and active life.`}
             textLink={'shop now'}
             link={'/shop'}
           />
         </Container>
       </div>
 
-      {/* Promotion */}
+      {/* Promotion / Banner */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero
+          image={toOptimizedImage('/banner2.png')} // replace with your promo banner
+          title={`-50% Off\nAll Essentials`}
+        />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
       </div>
 
-      {/* Quote */}
+      {/* Quote Section */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'About Orujin'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“We believe in creating quality streetwear that combines comfort, style, and sustainability. Everything else should take care of itself.”'
         }
       />
 
-      {/* Blog Grid */}
+      {/* Blog Section */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
-          <BlogPreviewGrid data={blogData} />
+          <BlogPreviewGrid data={blogs} />
         </Container>
       </div>
 
-      {/* Promotion */}
+      {/* Sustainability / Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={toOptimizedImage('/banner3.png')}
+          image={toOptimizedImage('/banner3.png')} // replace with your sustainability banner
           title={'We are Sustainable'}
           subtitle={
             'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
@@ -127,11 +126,11 @@ const IndexPage = () => {
         />
       </div>
 
-      {/* Social Media */}
+      {/* Social Media Section */}
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @oru.jin.clothing to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
@@ -140,6 +139,7 @@ const IndexPage = () => {
           <img src={toOptimizedImage(`/social/socialMedia4.png`)} alt={'social media 4'} />
         </div>
       </div>
+
       <AttributeGrid />
     </Layout>
   );
