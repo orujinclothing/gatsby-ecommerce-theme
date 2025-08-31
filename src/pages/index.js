@@ -16,8 +16,8 @@ import { toOptimizedImage } from '../helpers/general';
 
 import * as styles from './index.module.css';
 
-import products from '../helpers/products.json';
-import blogs from '../helpers/blogs.json';
+import products from '../data/products.json';
+import blogs from '../data/blogs.json';
 
 const IndexPage = () => {
   const goToShop = () => {
